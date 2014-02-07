@@ -1,0 +1,12 @@
+
+# swap mouse buttons
+xmodmap -e 'pointer = 3 2 1'
+
+# turn caps lock key into a control key
+setxkbmap -option ctrl:nocaps
+
+# load xkb extensions
+xkbcomp -I$HOME/.xkb ~/.xkb/keymap/cantora $DISPLAY
+
+# key repeat rate: after 200 ms, repeat at 30 hz
+xset r rate 200 30
