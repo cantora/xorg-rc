@@ -1,9 +1,11 @@
+#!/bin/sh
 
 # swap mouse buttons
 xmodmap -e 'pointer = 3 2 1'
 
 # turn caps lock key into a control key
-setxkbmap -option ctrl:nocaps
+# (not needed because the keymap file specifies this already)
+# setxkbmap -option ctrl:nocaps
 
 # load xkb extensions
 xkbcomp -I$HOME/.xkb ~/.xkb/keymap/cantora $DISPLAY
