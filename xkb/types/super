@@ -2,11 +2,15 @@
 xkb_types "super" {
   virtual_modifiers Super;
 
-  type "SUPER_TWO_LEVEL" {
-    modifiers= Super;
+  type "SUPER_FOUR_LEVEL" {
+    modifiers= Super+Control+Alt;
     map[Super]= Level2;
+    map[Super+Alt]= Level3;
+    map[Super+Control]= Level4;
     level_name[Level1]= "Base";
     level_name[Level2]= "Super";
+    level_name[Level3]= "Super+Alt";
+    level_name[Level4]= "Super+Ctrl";
   };
 };
 
