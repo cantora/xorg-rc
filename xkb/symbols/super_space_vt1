@@ -1,12 +1,9 @@
 
 partial alphanumeric_keys
 xkb_symbols "super_space_vt1" {
-
   key <SPCE> {
     type="SUPER_FOUR_LEVEL",
 #    symbols[Group1]=[space, XF86Switch_VT_1, space, space]
     symbols[Group1]=[space, space, space, space]
   };
 };
-
-

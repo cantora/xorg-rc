@@ -1,0 +1,24 @@
+
+partial alphanumeric_keys
+xkb_symbols "super_alt_n_vtn" {
+  key <AE01> {
+    type="SUPER_ALPHANUM",
+    symbols[Group1]=[1, exclam, 1, XF86Switch_VT_1, XF86Switch_VT_1]
+  };
+
+  key <AE02> {
+    type="SUPER_ALPHANUM",
+    symbols[Group1]=[2, at, 2, XF86Switch_VT_2, XF86Switch_VT_2]
+  };
+
+  key <AE03> {
+    type="SUPER_ALPHANUM",
+    symbols[Group1]=[3, numbersign, 3, XF86Switch_VT_3, XF86Switch_VT_3]
+  };
+
+  key <AE04> {
+    type="SUPER_ALPHANUM",
+    symbols[Group1]=[4, dollar, 4, XF86Switch_VT_4, XF86Switch_VT_4]
+  };
+
+};
