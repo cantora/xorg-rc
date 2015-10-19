@@ -12,3 +12,5 @@ xkbcomp -I$HOME/.xkb ~/.xkb/keymap/cantora $DISPLAY
 
 # key repeat rate: after 200 ms, repeat at 30 hz
 xset r rate 200 30
+
+export _JAVA_AWT_WM_NONREPARENTING=1
