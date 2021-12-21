@@ -1,0 +1,11 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "us"
+    name[Group1] = "Chrome";
+    # key <LCTL> { [ Super_L, Super_L, Super_L, Super_L, Super_L ] };
+    key <LWIN> { [ Control_L, Control_L, Control_L, Control_L, Control_L ] };
+    #key <LCTL> { [ Control_L, Control_L, Control_L, Control_L, Control_L ] };
+    key <FK01> { [ Super_L, Super_L, Super_L, Super_L, Super_L ] };
+
+    modifier_map Control { <LWIN> };
+};
